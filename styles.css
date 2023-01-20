@@ -3,6 +3,7 @@
   }
   
   body {
+    background-color: rgb(128, 128, 128);
     background-image: url("img/frontBanner-1080.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
