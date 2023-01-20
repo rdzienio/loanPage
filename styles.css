@@ -30,6 +30,7 @@
   .topnav {
     overflow: hidden;
     background-color: rgba(170, 170, 170, 0.1);
+    font-size: large;
   }
   
   /* Style the topnav links */
@@ -53,6 +54,16 @@
   .leftcolumn {   
     float: left;
     width: 75%;
+  }
+
+  .formcolumn {   
+    float: left;
+    width: 30vw;
+    text-align: center;
+  }
+
+  .formcolumn label {
+    color: #f1f1f1;
   }
   
   /* Right column */
