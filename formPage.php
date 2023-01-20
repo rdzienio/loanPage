@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Zostaw kontakt | Pożyczki bez BIK</title>
+<title>Szybka decyzja kredytowa przez telefon</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+<meta name="keywords" content="pożyczka online, pożyczka pozabankowa, kredyt gotówkowy">
+<meta name="description" content="Szybka pożyczka pozabankowa to minimum formalności. Zostaw nam kontakt a decyzję dostaniesz nawet przez telefon">
 </head>
 <body>
 <div class="topnav">
   <a href="index.php">Strona główna</a>
-  <a href="index.php">Aktualności</a>
-  <a href="formPage.php" style="float:right; color:rgb(190, 0, 0); background-color: rgba(170, 170, 170, 1); font-weight: bold"> zadzwoń: 517-883-411</a>
+  <a href="pozyczka-pozabankowa.php">Pożyczka pozabankowa</a>
+  <a class="rightnav" href="mailto:przyklad@demo.pl">email: przyklad@demo.pl</a>
+  <a class="rightnav" href="formPage.php">zadzwoń: 517-883-411</a>
+  <a class="rightnav" href="formPage.php">formularz kontaktowy</a>
 </div>
 <div class="header">
-  <h1>Pożyczki bez BIK</h1>
+    <h1>Szybka pożyczka online</h1>
 </div>
 
 
@@ -31,14 +35,10 @@
                 <label for="phone">Telefon</label>
                 <input type="tel" id="phone" name="phone" placeholder="999999999" pattern="[0-9]{9}" required>
             </div>
-            <div class="pure-control-group">
                 <label for="regulamin" class="pure-checkbox">
                     <input type="checkbox" id="regulamin" required/> Tak, zapoznałem się z regulaminem
                 </label>
-            </div>
-            <div class="pure-control-group">
                 <button class="pure-button pure-button-primary" type="submit">Zapisz</button>
-            </div>
         </fieldset>
     </form>
       </div>

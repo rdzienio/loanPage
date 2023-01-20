@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Szybka pożyczka online</title>
+<title>Pożyczka pozabankowa dla każdego</title>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
 <meta name="keywords" content="pożyczka online, pożyczka pozabankowa, kredyt gotówkowy">
@@ -16,7 +16,7 @@
   <a class="rightnav" href="formPage.php">formularz kontaktowy</a>
 </div>
 <div class="header">
-  <h1>Szybka pożyczka online<br>Mamy dla Ciebie<br>do 25 000 złotych</h1>
+  <h1>Pożyczka pozabankowa</h1>
 </div>
 
 
@@ -24,7 +24,9 @@
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
-    <p>Pożyczka online jest idealnym rozwiązaniem dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem Internetu, bez wychodzenia z domu. Do niedawna załatwienie kredytu wiązało się z koniecznością wizyty w oddziale lub placówce banku.<br>Aktualnie wystarczy dostęp do Internetu przez telefon, tablet, czy komputer. Wszelkie formalności można teraz dopełnić zdalnie, a spora część firm pożyczkowych będzie w stanie udostępnić środki na konto bankowe w zaledwie kilka chwil.</p>
+    <p>Wiele osób potrzebuje dodatkowej gotówki, mierząc się z chwilowymi problemami finansowymi. Nie wszyscy jednak mogą skorzystać z oferty kredytu bankowego, dlatego powstało mnóstwo pozabankowych instytucji finansowych, które mają zwykle trochę niższe wymagania dotyczące zdolności kredytowej, łatwiejszy do wypełniania wniosek, ograniczone wymagania dokumentacyjne i oferują szybszą wypłatę gotówki.<br>
+    Pożyczka pozabankowa zasadniczo wybierana jest przez osoby posiadające niską zdolność kredytową lub złą historię kredytową albo niewielkie dochody.</p>
+    <p>Pożyczka pozabankowa jest bardzo często brana pod uwagę jako rozwiązanie wśród osób, którym niespodziewanie i nagle pogorszyła się sytuacja finansowa. Powody tej sytuacji mogą być różne – przykładami mogą być nieprzewidziane wydatki, w postaci remontu pokoju, kuchni czy łazienki, naprawy lub przeglądu samochodu, czy też pilnego zakupu sprzętu AGD jak lodówka czy piecyk gazowy. </p>
       </div>
   </div>
 </div>

@@ -32,6 +32,12 @@
     background-color: rgba(170, 170, 170, 0.1);
     font-size: large;
   }
+.rightnav{
+    float:right !important; 
+    color:rgb(190, 0, 0) !important;
+    background-color: rgba(170, 170, 170, 1); 
+    font-weight: bold;
+ }
   
   /* Style the topnav links */
   .topnav a {
@@ -48,26 +54,28 @@
     background-color: #ddd;
     color: black;
   }
-  
+
+
   /* Create two unequal columns that floats next to each other */
   /* Left column */
   .leftcolumn {   
     float: left;
     width: 75%;
+    color: black;
   }
 
   .formcolumn {   
-    float: left;
-    width: 30vw;
-    text-align: center;
+    padding-left: 35vw;
+    /*float: left;*/
+    width: 65vw;
+    /*text-align: center;*/
   }
 
   .formcolumn label {
-    color: #f1f1f1;
+    color: black;
   }
   
-  /* Right column */
-  .rightcolumn {
+  /* Right column */  .rightcolumn {
     float: left;
     width: 25%;
     background-color: rgba(170, 170, 170, 0.1);
@@ -76,8 +84,9 @@
   
   /* Add a card effect for articles */
   .card {
-    background-color: rgba(170, 170, 170, 0.1);
+    background-color: rgba(170, 170, 170, 0.4);
     padding: 20px;
+    font-size: large;
     margin-top: 20px;
   }
   
