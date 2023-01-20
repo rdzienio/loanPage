@@ -7,6 +7,7 @@
 <body>
 
 <h1>Zostaw kontakt do siebie --><a href="formPage.php">tutaj</a></h1>
+<img src="img\frontBanner.png" alt="Główny banner z ofertą">
 
 </body>
 </html>
