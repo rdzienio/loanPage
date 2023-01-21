@@ -11,8 +11,8 @@
 <div class="topnav">
   <a href="index.php">Strona główna</a>
   <a href="pozyczka-pozabankowa.php">Pożyczka pozabankowa</a>
-  <a class="rightnav" href="mailto:przyklad@demo.pl">email: przyklad@demo.pl</a>
-  <a class="rightnav" href="formPage.php">zadzwoń: 517-883-411</a>
+  <a class="rightnav" href="mailto:przyklad@demo.pl">email: marcin.dzienio@proficredit.com.pl</a>
+  <a class="rightnav" href="formPage.php">zadzwoń: 517-883-402</a>
   <a class="rightnav" href="formPage.php">formularz kontaktowy</a>
 </div>
 <div class="header">
