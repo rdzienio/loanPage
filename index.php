@@ -200,8 +200,12 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
   <!-- Contact -->
   <div class="w3-center w3-padding-64" id="contact">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Zostaw kontakt do siebie, a oddzwonimy!</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Formularz kontaktowy</span>
+    <div class="w3-panel">
+    <p>Zostaw kontakt do siebie, a oddzwonimy!</p>
   </div>
+  </div>
+
 
   <form class="w3-container" action="/action_page.php" target="_blank">
     <div class="w3-section">
