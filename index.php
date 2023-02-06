@@ -48,7 +48,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </div>
 
 <!-- Content -->
-<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+<div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
   <div class="w3-panel">
     <h1><b>Szybka pożyczka online</b></h1>
@@ -117,7 +117,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Pożyczka bez BIK</h3>
           <p class="w3-opacity">maksimum dyskrecji</p>
           <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt? Poznaj odpowiedzi na te i inne pytania.</p>
-          <p><a href=""><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
+          <p><a href="pozyczka-bez-bik.php"><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
         </div>
       </div>
     </div>
