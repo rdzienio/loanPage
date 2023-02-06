@@ -9,23 +9,34 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
+<link rel="stylesheet" href="styles.css">
+<!--style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
-</style>
+</style-->
 </head>
 <body>
 
+
+
 <!-- Links (sit on top) -->
-<div class="w3-top">
+<div class="w3-top w3-mobile">
+<div class="w3-cell-row w3-large w3-grey">
+    <div class="w3-cell w3-mobile">
+      <a href="tel:517-883-402" class="w3-button w3-block">517-883-402</a>
+    </div>
+    <div class="w3-cell w3-mobile">
+      <a href="mailto:marcin.dzienio@proficredit.com.pl" class="w3-button w3-block">marcin.dzienio@proficredit.com.pl</a>
+    </div>
+  </div>
   <div class="w3-row w3-large w3-light-grey">
     <div class="w3-col s3">
-      <a href="#" class="w3-button w3-block">Strona główna</a>
+      <a href="index.php" class="w3-button w3-block">HOME</a>
     </div>
     <div class="w3-col s3">
-      <a href="#plans" class="w3-button w3-block">Oferta</a>
+      <a href="pozyczka-pozabankowa.php" class="w3-button w3-block">Oferta</a>
     </div>
     <div class="w3-col s3">
       <a href="#about" class="w3-button w3-block">O nas</a>
@@ -67,13 +78,13 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
   </div> -->
   
-  <!-- Grid -->
+  <!-- Grid 
   <div class="w3-row w3-container">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nasza oferta</span>
     </div>
     <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-      <h3>Pożyczka bez BIK</h3>
+      <a href="#"><h3>Pożyczka bez BIK</h3></a>
       <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać?</p>
     </div>
 
@@ -91,69 +102,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <h3>Kredyt na raty</h3>
       <p>Kredyt na raty jest jednym z najbardziej elastycznych produktów finansowych o charakterze kredytowym dostępnych na rynku.</p>
     </div>
-  </div>
-
-  <!-- Grid -->
-  <!--
-  <div class="w3-row-padding" id="plans">
-    <div class="w3-center w3-padding-64">
-      <h3>Pricing Plans</h3>
-      <p>Choose a pricing plan that fits your needs.</p>
-    </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>10GB</b> Storage</li>
-        <li class="w3-padding-16"><b>10</b> Emails</li>
-        <li class="w3-padding-16"><b>10</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 10</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16"><b>25GB</b> Storage</li>
-        <li class="w3-padding-16"><b>25</b> Emails</li>
-        <li class="w3-padding-16"><b>25</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 25</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
-        <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>50GB</b> Storage</li>
-        <li class="w3-padding-16"><b>50</b> Emails</li>
-        <li class="w3-padding-16"><b>50</b> Domains</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-wide">$ 50</h2>
-          <span class="w3-opacity">per month</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-
--->
+  </div> -->
 
   <!-- Grid -->
   <div class="w3-row-padding" id="about">
@@ -167,8 +116,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <div class="w3-container">
           <h3>Pożyczka bez BIK</h3>
           <p class="w3-opacity">maksimum dyskrecji</p>
-          <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać?</p>
-          <p><button class="w3-button w3-light-grey w3-block">Sprawdź</button></p>
+          <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt? Poznaj odpowiedzi na te i inne pytania.</p>
+          <p><a href=""><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
         </div>
       </div>
     </div>
@@ -179,8 +128,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
         <div class="w3-container">
           <h3>Pożyczka pozabankowa</h3>
           <p class="w3-opacity">bez zbędnych formalności</p>
-          <p>Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Sprawdź</button></p>
+          <p>Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać. Odwiedź nasze kompendium wiedzy.</p>
+          <p><a href="pozyczka-pozabankowa.php"><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
         </div>
       </div>
     </div>
@@ -192,7 +141,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Kredyt online</h3>
           <p class="w3-opacity">szybka decyzja</p>
           <p>Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Sprawdź</button></p>
+          <p><a href=""><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
         </div>
       </div>
     </div>
