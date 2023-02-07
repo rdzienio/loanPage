@@ -32,15 +32,15 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
   </div>
   <div class="w3-bar w3-large w3-light-grey">
-      <a href="index.php" class="w3-bar-item w3-button w3-mobile">Home</a>
-      <div class="w3-dropdown-hover w3-mobile">
+      <a href="index.php" class="w3-bar-item w3-button">Home</a>
+      <div class="w3-dropdown-hover">
        <a href="index.php#about"><button class="w3-button">Oferta</button></a>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
-          <a href="pozyczka-pozabankowa.php" class="w3-bar-item w3-button w3-mobile">Pożyczki pozabankowe</a>
-          <a href="pozyczka-bez-bik.php" class="w3-bar-item w3-button w3-mobile">Pożyczki bez BIK</a>
+          <a href="pozyczka-pozabankowa.php" class="w3-bar-item w3-button">Pożyczki pozabankowe</a>
+          <a href="pozyczka-bez-bik.php" class="w3-bar-item w3-button">Pożyczki bez BIK</a>
         </div>
       </div>
-      <a href="formPage.php" class="w3-bar-item w3-button w3-mobile">Kontakt</a>
+      <a href="formPage.php" class="w3-bar-item w3-button">Kontakt</a>
   </div>
 </div>
 
