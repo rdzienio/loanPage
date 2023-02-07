@@ -34,10 +34,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <div class="w3-bar w3-large w3-light-grey">
       <a href="index.php" class="w3-bar-item w3-button">Home</a>
       <div class="w3-dropdown-hover">
-       <a href="index.php#about"><button class="w3-button">Oferta</button></a>
+       <a href="oferta.php"><button class="w3-button">Oferta</button></a>
         <div class="w3-dropdown-content w3-bar-block w3-card-4">
           <a href="pozyczka-pozabankowa.php" class="w3-bar-item w3-button">Pożyczki pozabankowe</a>
           <a href="pozyczka-bez-bik.php" class="w3-bar-item w3-button">Pożyczki bez BIK</a>
+          <a href="pozyczka-online.php" class="w3-bar-item w3-button">Pożyczki online</a>
         </div>
       </div>
       <a href="formPage.php" class="w3-bar-item w3-button">Kontakt</a>
@@ -62,44 +63,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     </div>
 
-    <!-- Slideshow next/previous buttons 
-    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
-      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
-      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
-    
-      <div class="w3-center">
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-      </div>
-    </div>
-  </div> -->
-  
-  <!-- Grid 
-  <div class="w3-row w3-container">
-    <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nasza oferta</span>
-    </div>
-    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-      <a href="#"><h3>Pożyczka bez BIK</h3></a>
-      <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać?</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-      <h3>Pożyczka pozabankowa</h3>
-      <p>Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać.</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-      <h3>Kredyt online</h3>
-      <p>Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu.</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-      <h3>Kredyt na raty</h3>
-      <p>Kredyt na raty jest jednym z najbardziej elastycznych produktów finansowych o charakterze kredytowym dostępnych na rynku.</p>
-    </div>
-  </div> -->
 
   <!-- Grid -->
   <div class="w3-row-padding" id="about" style="margin-top:120px;">
@@ -138,7 +101,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Kredyt online</h3>
           <p class="w3-opacity">szybka decyzja</p>
           <p>Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu.</p>
-          <p><a href=""><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
+          <p><a href="pozyczka-online.php"><button class="w3-button w3-light-grey w3-block">Sprawdź</button></a></p>
         </div>
       </div>
     </div>

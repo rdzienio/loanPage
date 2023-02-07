@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pożyczka bez BIK</title>
+<title>Pożyczka online - łatwo i wygodnie</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="pożyczka online, pożyczka pozabankowa, kredyt gotówkowy">
-<meta name="description" content="Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt?">
+<meta name="description" content="Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie bez wychodzenia z domu.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -47,8 +47,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>Pożyczka bez BIK dla każdego</b></h1>
-    <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt? Poznaj odpowiedzi na te i inne pytania.</p>
+    <h1><b>Pożyczka online bez wychodzenia z domu</b></h1>
+    <p>Szybki sposób na nagłe wydatki</p>
   </div>
 
   <!-- Slideshow -->
@@ -62,13 +62,38 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
 
     <article class="w3-container">
-    <p>Wiele razy przeglądając oferty instytucji finansowych w Internecie spotykamy się z okresleniem pożyczka bez BIK. Poniżej przedstawimy cechy, którymi ten produkt się wyróżnia, jakie są jego plusy i minusy, na co szczególnie zwrócić uwagę przy jego wyborze.</p>
-    <p>Pożyczkę bez BIK można podzielić na dwa rodzaje: pożyczkę krótkoterminową i długoterminową. Ważnym jest jednak aby w pierwszej kolejności rozróżnić pożyczkę od kredytu. Produkt finansowy, jakim jest kredyt jest udzielany wyłącznie przez banki, natomiast pożyczkę może przyznać instytucja pozabankowa, która nie jest bankiem, ale spełnia warunki stawiane przez Ustawę o Kredycie Konsumenckim.</p>
-    <p>Pożyczki krótkoterminowe, udzielane są zazwyczaj na dość krótki okres czasu i najczęściej ich spłata wymagana jest w ciągu 30 do 60 dni. Możemy o niej powiedzieć, że jest to tzw. chwilówka.</p>
-    <p>Pożyczka długoterminowa daje zwykle możliwość pozyskania większej kwoty – czasami nawet kilkunastu tysięcy złotych, a okres kredytowania jest rozłożony w czasie na kilkanaście lub kilkadziesiąt miesięcy. Kwota do spłaty dzielona jest na raty, co sprawie, że jest łatwiejsza do udźwignięcia dla budżetu domowego.</p>
-    <p>Poza wszystkimi powszechnie znanymi zaletami pożyczek pozabankowych – szybkość, elastyczność, przewidywalne koszty, należy także wspomnieć o maksymalnej dyskrecji. Firmy pożyczkowe dbają o poufność i prywatność swoich klientów. Nikomu niepowołanemu nie udostępniają danych, ani pozostałych informacji finansowych. Pożyczka bez BIK nie jest odnotowywana w rejestrze BIK jeśli jest spłacana regularnie i na czas. Potencjalnie nie musisz się martwić, że ktokolwiek z Twojego otoczenia dowie się, że korzystasz z pożyczek. Pieniądze trafią na Twoje konto bankowe, do którego dostęp masz zapewne tylko Ty.
+    <p>Pożyczka online to idealne rozwiązanie dla ludzi preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu. Dawniej zaciągniecie jakiegokolwiek zobowiązania wiązało się z koniecznością wizyty w oddziale lub placówce banku. Aktualnie wystarczy dostęp do Internetu przez telefon, tablet, czy komputer. Wszelkie formalności można teraz dopełnić zdalnie, a spora część instytucji finansowych będzie w stanie przelać środki na konto bankowe w zaledwie kilka chwil.</p>
+    <p>Korzystanie z oferty online jest doskonałym rozwiązaniem także dla osób, które nie mają możliwości, aby osobiście udać się do oddziału, z uwagi choćby na odległość czy inne ograniczenia natury technicznej. Głównym celem kredytu online jest pełna dostępność dla klientów. Oznacza to, że tego produktu tej mogą skorzystać zarówno osoby pracujące, jak i emeryci.</p>  
   </article>
 
+
+  
+  <!-- Grid
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nasza oferta</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <a href="#"><h3>Pożyczka bez BIK</h3></a>
+      <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać?</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+      <h3>Pożyczka pozabankowa</h3>
+      <p>Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Kredyt online</h3>
+      <p>Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu.</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Kredyt na raty</h3>
+      <p>Kredyt na raty jest jednym z najbardziej elastycznych produktów finansowych o charakterze kredytowym dostępnych na rynku.</p>
+    </div>
+  </div> 
+-->
 
 
   <!-- Grid -->

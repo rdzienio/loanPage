@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Pożyczka bez BIK</title>
+<title>Nasza oferta kredytowa</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="pożyczka online, pożyczka pozabankowa, kredyt gotówkowy">
-<meta name="description" content="Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt?">
+<meta name="description" content="Nie musisz obawiać się wzięcia pożyczki przez Internet, ponieważ działamy na Rynku od 18 lat. Pożyczki pozabankowe mogą pomóc w nagłych sytuacjach – pieniądze są u nas dostępne maksymalnie szybko.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -18,6 +18,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </style-->
 </head>
 <body>
+
+
 
 <!-- Links (sit on top) -->
 <div class="w3-top w3-mobile">
@@ -47,8 +49,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>Pożyczka bez BIK dla każdego</b></h1>
-    <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać? Czy jest droższa niż kredyt? Poznaj odpowiedzi na te i inne pytania.</p>
+    <h1><b>Nasza oferta pożyczkowa</b></h1>
+    <p>Odzyskaj spokój i przestań się martwić o domowy budżet!</p>
   </div>
 
   <!-- Slideshow -->
@@ -61,18 +63,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     </div>
 
-    <article class="w3-container">
-    <p>Wiele razy przeglądając oferty instytucji finansowych w Internecie spotykamy się z okresleniem pożyczka bez BIK. Poniżej przedstawimy cechy, którymi ten produkt się wyróżnia, jakie są jego plusy i minusy, na co szczególnie zwrócić uwagę przy jego wyborze.</p>
-    <p>Pożyczkę bez BIK można podzielić na dwa rodzaje: pożyczkę krótkoterminową i długoterminową. Ważnym jest jednak aby w pierwszej kolejności rozróżnić pożyczkę od kredytu. Produkt finansowy, jakim jest kredyt jest udzielany wyłącznie przez banki, natomiast pożyczkę może przyznać instytucja pozabankowa, która nie jest bankiem, ale spełnia warunki stawiane przez Ustawę o Kredycie Konsumenckim.</p>
-    <p>Pożyczki krótkoterminowe, udzielane są zazwyczaj na dość krótki okres czasu i najczęściej ich spłata wymagana jest w ciągu 30 do 60 dni. Możemy o niej powiedzieć, że jest to tzw. chwilówka.</p>
-    <p>Pożyczka długoterminowa daje zwykle możliwość pozyskania większej kwoty – czasami nawet kilkunastu tysięcy złotych, a okres kredytowania jest rozłożony w czasie na kilkanaście lub kilkadziesiąt miesięcy. Kwota do spłaty dzielona jest na raty, co sprawie, że jest łatwiejsza do udźwignięcia dla budżetu domowego.</p>
-    <p>Poza wszystkimi powszechnie znanymi zaletami pożyczek pozabankowych – szybkość, elastyczność, przewidywalne koszty, należy także wspomnieć o maksymalnej dyskrecji. Firmy pożyczkowe dbają o poufność i prywatność swoich klientów. Nikomu niepowołanemu nie udostępniają danych, ani pozostałych informacji finansowych. Pożyczka bez BIK nie jest odnotowywana w rejestrze BIK jeśli jest spłacana regularnie i na czas. Potencjalnie nie musisz się martwić, że ktokolwiek z Twojego otoczenia dowie się, że korzystasz z pożyczek. Pieniądze trafią na Twoje konto bankowe, do którego dostęp masz zapewne tylko Ty.
-  </article>
-
-
 
   <!-- Grid -->
-  <div class="w3-row-padding" id="about">
+  <div class="w3-row-padding" id="about" style="margin-top:120px;">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nasza oferta</span>
     </div>
