@@ -23,25 +23,22 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-top w3-mobile">
 <div class="w3-cell-row w3-large w3-grey">
     <div class="w3-cell w3-mobile">
-      <a href="tel:517-883-402" class="w3-button w3-block">517-883-402</a>
+      <a href="tel:517-883-402" class="w3-button w3-block w3-mobile">517-883-402</a>
     </div>
     <div class="w3-cell w3-mobile">
-      <a href="mailto:marcin.dzienio@proficredit.com.pl" class="w3-button w3-block">marcin.dzienio@proficredit.com.pl</a>
+      <a href="mailto:marcin.dzienio@proficredit.com.pl" class="w3-button w3-block w3-mobile">marcin.dzienio@proficredit.com.pl</a>
     </div>
   </div>
-  <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s3">
-      <a href="index.php" class="w3-button w3-block">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="pozyczka-pozabankowa.php" class="w3-button w3-block">Oferta</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block">O nas</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#contact" class="w3-button w3-block">Kontakt</a>
-    </div>
+  <div class="w3-bar w3-large w3-light-grey">
+      <a href="index.php" class="w3-bar-item w3-button w3-mobile">Home</a>
+      <div class="w3-dropdown-hover w3-mobile">
+       <a href="index.php#about"><button class="w3-button">Oferta</button></a>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="pozyczka-pozabankowa.php" class="w3-bar-item w3-button w3-mobile">Pożyczki pozabankowe</a>
+          <a href="pozyczka-bez-bik.php" class="w3-bar-item w3-button w3-mobile">Pożyczki bez BIK</a>
+        </div>
+      </div>
+      <a href="formPage.php" class="w3-bar-item w3-button w3-mobile">Kontakt</a>
   </div>
 </div>
 
