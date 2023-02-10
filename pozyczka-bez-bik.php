@@ -123,7 +123,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
 
-  <form class="w3-container" action="/action_page.php" target="_blank">
+  <form class="w3-container" action="send-email.php" method="post">
     <div class="w3-section">
       <label>Imię i nazwisko</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
