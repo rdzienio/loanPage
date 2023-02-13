@@ -79,7 +79,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
   <!-- <h4>Footer</h4> -->
   <a href="#top" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
-  <p class="info"> Created by: gienius</p>
+  <p class="info"> Created by: <a href="https://github.com/rdzienio">gienius</a></p>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
