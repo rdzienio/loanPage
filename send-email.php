@@ -2,13 +2,14 @@
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\SMTP;
 
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PhpMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 $name = $_POST["Name"];
-$email = $_POST["Email"];
+$phone = $_POST["Phone"];
 //$subject = $_POST["subject"];
 $message = $_POST["Message"];
 
@@ -24,31 +25,30 @@ $mail = new PHPMailer(true);
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 
-$mail->Host = "smtp.google.com";
+$mail->Host = 'smtp.gmail.com';
 //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-$mail->SMTPSecure = 'ssl';
-$mail->Port = 465;
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
 $mail->Username = "bezbikpozyczkaweb@gmail.com";
 $mail->Password = "lnilcbmrzbjqrrzs";
 
-$mail->setFrom("bezbikpozyczkaweb@gmail.com");
-$mail->addAddress("bezbikpozyczkaweb@gmail.com");
+$mail->setFrom('bezbikpozyczkaweb@gmail.com','BezBikPozyczka');
+$mail->addAddress('marcin.dzienio@proficredit.com.pl');
 
 $mail->isHTML(true);
 
-$mail->Subject = "Zapytanie od";
+$mail->Subject = 'Zapytanie od ' . $name;
 //$mail->Subject = "Zapytanie od: " + $name + ", " + $email;
-$mail->Body = $message;
+$mail->Body = '<h2>Nr telefonu: ' . $phone . '</h2><p>' . $message . '</p>';
 
 $mail->send();
 
-echo
-"
-<script>
-alert('200 OK');
-document.location.reload();
-</script>
-"
+if (!$mail->send()) {
+    echo 'Message could not be sent.';
+    echo 'Mailer Error: ' . $mail->ErrorInfo;
+} else {
+    header("Location: sent.php");
+}
 
 ?>

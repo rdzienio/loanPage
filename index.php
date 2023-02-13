@@ -49,7 +49,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>Szybka pożyczka online</b></h1>
+    <h1 id="top"><b>Szybka pożyczka online</b></h1>
     <p>Mamy dla Ciebie do 25 000 złotych</p>
   </div>
 
@@ -123,17 +123,15 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     <div class="w3-section">
       <label>Telefon</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Phone" required>
     </div>
-    <!--<div class="w3-section">
-      <label>Subject</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
-    </div>-->
     <div class="w3-section">
       <label>Treść</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
     </div>
     <button type="submit" class="w3-button w3-block w3-black">Wyślij</button>
+    <p class="info">Uwaga! Warunkiem udzielenia pożyczki jest pozytywny wynik oceny zdolności kredytowej klienta. Klikając „Wyślij” wyrażam zgodę na skontaktowanie się ze mną przez pracownika PROFI CREDIT Polska S.A. w celu przedstawienia oferty pożyczkowej.<br>
+    Wyrażam zgodę na używanie przez PROFI CREDIT Polska S.A. telekomunikacyjnych urządzeń końcowych (w tym telefonu) i automatycznych systemów wywołujących dla celów marketingu bezpośredniego dostosowanego do moich potrzeb i oczekiwań. <a href="rodo.php">Zasady Ochrony Danych Osobowych</a></p>
   </form>
 
 </div>
@@ -142,16 +140,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
   <!-- <h4>Footer</h4> -->
-  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
-  <!--<div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div> -->
-  <p> Created by: gienius</p>
+  <a href="#top" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <p class="info"> Created by: gienius</p>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 

@@ -47,7 +47,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 <div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>Pożyczka online bez wychodzenia z domu</b></h1>
+    <h1 id="top"><b>Pożyczka online bez wychodzenia z domu</b></h1>
     <p>Szybki sposób na nagłe wydatki</p>
   </div>
 
@@ -66,34 +66,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <p>Korzystanie z oferty online jest doskonałym rozwiązaniem także dla osób, które nie mają możliwości, aby osobiście udać się do oddziału, z uwagi choćby na odległość czy inne ograniczenia natury technicznej. Głównym celem kredytu online jest pełna dostępność dla klientów. Oznacza to, że tego produktu tej mogą skorzystać zarówno osoby pracujące, jak i emeryci.</p>  
   </article>
 
-
-  
-  <!-- Grid
-  <div class="w3-row w3-container">
-    <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Nasza oferta</span>
-    </div>
-    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
-      <a href="#"><h3>Pożyczka bez BIK</h3></a>
-      <p>Czym jest pożyczka bez BIK? Co ją wyróżnia wyróżnia? Czy warto z niej skorzystać?</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
-      <h3>Pożyczka pozabankowa</h3>
-      <p>Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać.</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
-      <h3>Kredyt online</h3>
-      <p>Pożyczka online to doskonałe rozwiązanie dla osób preferujących załatwianie wszelkich spraw wygodnie, za pośrednictwem komputera i bez wychodzenia z domu.</p>
-    </div>
-
-    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
-      <h3>Kredyt na raty</h3>
-      <p>Kredyt na raty jest jednym z najbardziej elastycznych produktów finansowych o charakterze kredytowym dostępnych na rynku.</p>
-    </div>
-  </div> 
--->
 
 
   <!-- Grid -->
@@ -155,17 +127,15 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     </div>
     <div class="w3-section">
       <label>Telefon</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Phone" required>
     </div>
-    <!--<div class="w3-section">
-      <label>Subject</label>
-      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
-    </div>-->
     <div class="w3-section">
       <label>Treść</label>
       <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
     </div>
     <button type="submit" class="w3-button w3-block w3-black">Wyślij</button>
+    <p class="info">Uwaga! Warunkiem udzielenia pożyczki jest pozytywny wynik oceny zdolności kredytowej klienta. Klikając „Wyślij” wyrażam zgodę na skontaktowanie się ze mną przez pracownika PROFI CREDIT Polska S.A. w celu przedstawienia oferty pożyczkowej.<br>
+    Wyrażam zgodę na używanie przez PROFI CREDIT Polska S.A. telekomunikacyjnych urządzeń końcowych (w tym telefonu) i automatycznych systemów wywołujących dla celów marketingu bezpośredniego dostosowanego do moich potrzeb i oczekiwań. <a href="rodo.php">Zasady Ochrony Danych Osobowych</a></p>
   </form>
 
 </div>
@@ -174,16 +144,8 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
   <!-- <h4>Footer</h4> -->
-  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
-  <!--<div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div> -->
-  <p> Created by: gienius</p>
+  <a href="#top" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <p class="info"> Created by: gienius</p>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
