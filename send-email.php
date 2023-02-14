@@ -1,11 +1,11 @@
 <?php
-
+/*
 $name = $_POST["Name"];
 $phone = $_POST["Phone"];
 $message = $_POST["Message"];
 
 echo '<h2>'.$name.'</h2><p>'.$phone.'</p><p>'.$message.'</p>';
-/*
+*/
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
@@ -37,10 +37,10 @@ $mail->SMTPSecure = 'tls';
 $mail->Port = 587;
 
 $mail->Username = "bezbikpozyczkaweb@gmail.com";
-$mail->Password = "lnilcbmrzbjqrrzs";
+$mail->Password = "m07h3r-f#c43$";
 
 $mail->setFrom('bezbikpozyczkaweb@gmail.com','BezBikPozyczka');
-$mail->addAddress('marcin.dzienio@proficredit.com.pl');
+$mail->addAddress('robertdzienio@gmail.com');
 
 $mail->isHTML(true);
 
@@ -56,5 +56,5 @@ if (!$mail->send()) {
 } else {
     header("Location: sent.php");
 }
-*/
+
 ?>
