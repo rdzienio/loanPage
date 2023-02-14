@@ -1,5 +1,11 @@
 <?php
 
+$name = $_POST["Name"];
+$phone = $_POST["Phone"];
+$message = $_POST["Message"];
+
+echo '<h2>'.$name.'</h2><p>'.$phone.'</p><p>'.$message.'</p>';
+/*
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
@@ -50,5 +56,5 @@ if (!$mail->send()) {
 } else {
     header("Location: sent.php");
 }
-
+*/
 ?>
