@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2019.css">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -33,6 +34,41 @@
       <a href="index.php" class="w3-bar-item"><img src="img/klik-pozyczka-30.png" alt="Strona główna"></a>
       <a href="oferta.php" class="w3-bar-item"><img src="img/oferta-30.png" alt="Nasza oferta"></a>
       <a href="formPage.php" class="w3-bar-item"><img src="img/kontakt-30.png" alt="Zostaw kontakt"></a>
+=======
+<link rel="stylesheet" href="styles.css">
+<!--style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style-->
+</head>
+<body>
+
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top w3-mobile">
+<div class="w3-cell-row w3-large w3-grey">
+    <div class="w3-cell w3-mobile">
+      <a href="tel:517-883-402" class="w3-button w3-block w3-mobile">517-883-402</a>
+    </div>
+    <div class="w3-cell w3-mobile">
+      <a href="mailto:marcin.dzienio@proficredit.com.pl" class="w3-button w3-block w3-mobile">marcin.dzienio@proficredit.com.pl</a>
+    </div>
+  </div>
+  <div class="w3-bar w3-large w3-light-grey">
+      <a href="index.php" class="w3-bar-item w3-button">Home</a>
+      <div class="w3-dropdown-hover">
+       <a href="oferta.php"><button class="w3-button">Oferta</button></a>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+          <a href="pozyczka-pozabankowa.php" class="w3-bar-item w3-button">Pożyczki pozabankowe</a>
+          <a href="pozyczka-bez-bik.php" class="w3-bar-item w3-button">Pożyczki bez BIK</a>
+          <a href="pozyczka-online.php" class="w3-bar-item w3-button">Pożyczki online</a>
+        </div>
+      </div>
+      <a href="formPage.php" class="w3-bar-item w3-button">Kontakt</a>
+>>>>>>> 40e16c048ce16886b0377b6b98b82c7986ead8f8
   </div>
 </div>
 
@@ -65,8 +101,18 @@
 
 </div>
 
+<<<<<<< HEAD
 <footer class="w3-bottom w3-container w3-2019-galaxy-blue w3-center">
   <p class="info">Created by: <a href="https://github.com/rdzienio" title="gienius" target="_blank" class="w3-hover-text-green">gienius</a> / Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+=======
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <!-- <h4>Footer</h4> -->
+  <a href="#top" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Do góry</a>
+  <p class="info"> Created by: <a href="https://github.com/rdzienio">gienius</a></p>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+>>>>>>> 40e16c048ce16886b0377b6b98b82c7986ead8f8
 </footer>
 
 
