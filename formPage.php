@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Szybka pożyczka online</title>
+<title>Szybka decyzja kredytowa</title>
 <meta charset="UTF-8">
 <meta name="keywords" content="pożyczka online, pożyczka pozabankowa, kredyt gotówkowy">
-<meta name="description" content="Istnieje skuteczna alternatywa dla kredytu bankowego. Przekonaj się czym jest pożyczka pozabankowa i kto może z niej skorzystać.">
+<meta name="description" content="Szybka pożyczka pozabankowa to minimum formalności. Zostaw nam kontakt a decyzję dostaniesz nawet przez telefon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -37,26 +37,33 @@
 </div>
 
 <!-- Content -->
-<div id="banner" class="w3-container">
-  <div class="w3-container w3-display-middle">
-    <div class="w3-display-container mySlides">
-      <a href="formPage.php"><img src="img/baner-desktop.png" style="width:100%"></a>
-        <div class="w3-display-bottomright w3-container w3-padding-32">
-          <span class="w3-white w3-padding-large w3-animate-bottom"><a href="formPage.php">Szybka decyzja kredytowa</a></span>
-        </div>
-    </div>
-  </div>
-</div>
+<div class="w3-content" style="max-width:1100px;margin-top:120px;margin-bottom:80px">
 
-<div id="banner-mobile" class="w3-container" style="margin-top:150px;margin-bottom:40px">
   <div class="w3-panel">
-      <a href="formPage.php"><img src="img/baner-mobile.png" style="width:100%"></a>
+    <h1><b>Formularz kontaktowy</b></h1>
+    <p>Zostaw kontakt do siebie, a oddzwonimy!</p>
   </div>
-  <article class="w3-panel w3-2019-bluestone">
-    <h2 style="text-align:center"><a href="formPage.php">Zostaw kontakt, a oddzwonimy do Ciebie!</a></h2>
-  </article>
+
+
+  <form class="w3-container" action="send-email.php" method="post">
+    <div class="w3-section">
+      <label>Imię i nazwisko</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Telefon</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Phone" required>
+    </div>
+    <div class="w3-section">
+      <label>Treść</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black">Wyślij</button>
+    <p class="info">Uwaga! Warunkiem udzielenia pożyczki jest pozytywny wynik oceny zdolności kredytowej klienta. Klikając „Wyślij” wyrażam zgodę na skontaktowanie się ze mną przez pracownika PROFI CREDIT Polska S.A. w celu przedstawienia oferty pożyczkowej.<br>
+    Wyrażam zgodę na używanie przez PROFI CREDIT Polska S.A. telekomunikacyjnych urządzeń końcowych (w tym telefonu) i automatycznych systemów wywołujących dla celów marketingu bezpośredniego dostosowanego do moich potrzeb i oczekiwań. <a href="rodo.php">Zasady Ochrony Danych Osobowych</a></p>
+  </form>
+
 </div>
-<!-- Footer -->
 
 <footer class="w3-bottom w3-container w3-2019-galaxy-blue w3-center">
   <p class="info">Created by: <a href="https://github.com/rdzienio" title="gienius" target="_blank" class="w3-hover-text-green">gienius</a> / Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>

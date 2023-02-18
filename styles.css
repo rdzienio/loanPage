@@ -1,0 +1,31 @@
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+.info {
+    font-size: xx-small;
+    color: grey;
+}
+
+.w3-display-middle {width: 85vw;}
+
+#banner-mobile {
+    display: none;
+}
+
+#pasek-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #banner {display: none !important;}
+    #banner-mobile {display: block !important;}
+    #banner-mobile img {display: block !important;}
+    #pasek {display: none !important;}
+    #pasek-mobile {display: block !important;}
+}
+/*
+@media screen and (min-width: 1366px) {
+    .w3-display-middle {width: 90vw !important;}
+}*/
