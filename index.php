@@ -21,23 +21,45 @@ require 'menu.php';
 
 <!-- Content -->
 <div id="banner" class="w3-container">
-  <div class="w3-container w3-display-middle">
+  <div class="w3-container w3-display-middle" style="margin-top:120px">
     <div class="w3-display-container mySlides">
-      <a href="formPage.php"><img src="img/baner-desktop.png" style="width:100%"></a>
+      <a href="formPage.php"><img src="img/baner-desktop.jpg" style="width:100%"></a>
         <div class="w3-display-bottomright w3-container w3-padding-32">
           <span class="w3-white w3-padding-large w3-animate-bottom"><a href="formPage.php">Szybka decyzja kredytowa</a></span>
         </div>
+    </div>
+
+    <div class="w3-card-4">
+      <div class="w3-content">
+        <ul class="w3-ul w3-border">
+          <li class="w3-2019-bluestone"><h2>Dlaczego my?</h2></li>
+          <li><b>Jesteśmy szybcy</b> – pomagamy przede wszystkim w nagłych sytuacjach</li>
+          <li><b>Ograniczamy formalności</b> – będziemy potrzebować tylko niezbędnych dokumentów</li>
+          <li><b>Szanujemy Twój czas</b> – wstępną decyzję kredytową dostaniesz przez telefon</li>
+          <li><b>Chronimy Twój budżet</b> – wysokość raty dopasujemy do Twoich możliwości płatniczych</li>
+          <li><b>Doceniamy lojalność</b> – kolejną pożyczkę będziesz mógł dostać na lepszych warunkach</li>
+        </ul>
+      </div>
     </div>
   </div>
 </div>
 
 <div id="banner-mobile" class="w3-container" style="margin-top:150px;margin-bottom:40px">
   <div class="w3-panel">
-      <a href="formPage.php"><img src="img/baner-mobile.png" style="width:100%"></a>
+      <a href="formPage.php"><img src="img/baner-mobile.jpg" style="width:100%"></a>
   </div>
-  <article class="w3-panel w3-2019-bluestone">
-    <h2 style="text-align:center"><a href="formPage.php">Zostaw kontakt, a oddzwonimy do Ciebie!</a></h2>
-  </article>
+  <div class="w3-card-4">
+      <div class="w3-content">
+        <ul class="w3-ul w3-border">
+          <li class="w3-2019-bluestone"><h2>Dlaczego my?</h2></li>
+          <li><b>Jesteśmy szybcy</b> – pomagamy przede wszystkim w nagłych sytuacjach</li>
+          <li><b>Ograniczamy formalności</b> – będziemy potrzebować tylko niezbędnych dokumentów</li>
+          <li><b>Szanujemy Twój czas</b> – wstępną decyzję kredytową dostaniesz przez telefon</li>
+          <li><b>Chronimy Twój budżet</b> – wysokość raty dopasujemy do Twoich możliwości płatniczych</li>
+          <li><b>Doceniamy lojalność</b> – kolejną pożyczkę będziesz mógł dostać na lepszych warunkach</li>
+        </ul>
+      </div>
+    </div>
 </div>
 <!-- Footer -->
 
