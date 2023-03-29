@@ -3,10 +3,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .w3-tag, .fa {cursor:pointer}
 .w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
 
+body {background-image: url('img/new-banner.jpg') ;}
+
 .info {
     font-size: xx-small;
     color: grey;
-<<<<<<< HEAD
 }
 
 .w3-display-middle {width: 85vw;}
@@ -30,6 +31,3 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 @media screen and (min-width: 1366px) {
     .w3-display-middle {width: 90vw !important;}
 }*/
-=======
-}
->>>>>>> 40e16c048ce16886b0377b6b98b82c7986ead8f8
